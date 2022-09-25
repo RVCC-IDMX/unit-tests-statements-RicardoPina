@@ -50,7 +50,7 @@ function invertBoolean(bool) {
  */
 function numberOfOdds(num) {
   let counter = 0;
-  for (let i = 0; i < num; i++) {
+  for (let i = 0; i < num; i += 1) {
     if (i % 2 > 0) counter += 1;
   }
   return counter;
@@ -67,7 +67,7 @@ function numberOfOdds(num) {
  */
 function addUpTheNumbers(num) {
   let sum = 0;
-  for (let i = 1; i <= num; i++) {
+  for (let i = 1; i <= num; i += 1) {
     sum += i;
   }
   return sum;
